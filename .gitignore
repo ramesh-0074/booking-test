@@ -10,6 +10,7 @@ backend/.env
 frontend/package-lock.json
 backend/package-lock.json
 
-
+# remove .next from frontend
+frontend/.next
 
 
