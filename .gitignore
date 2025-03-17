@@ -1,0 +1,15 @@
+# remove node_modules from both frontend and backend
+frontend/node_modules
+backend/node_modules
+
+# remove .env from both frontend and backend
+frontend/.env
+backend/.env
+
+# remove package-lock.json from both frontend and backend
+frontend/package-lock.json
+backend/package-lock.json
+
+
+
+

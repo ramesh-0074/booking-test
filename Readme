@@ -1,0 +1,73 @@
+# Appointment Booking System
+
+This project consists of three main components: a backend server, a frontend application, and an embeddable booking widget plugin.
+
+## Backend
+
+The backend is built with Node.js, Express, and MongoDB, providing the core booking functionality and data management.
+
+### Features
+- RESTful API endpoints for booking management
+- MongoDB integration for data persistence
+- Available time slots generation
+- Booking validation and management
+
+### Setup and Running
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file with the following variables:
+   ```
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   ```
+4. Run the server:
+   - Development mode: `npm run dev`
+   - Production mode: `npm start`
+
+The server will start on port 5000 by default.
+
+## Frontend
+
+The frontend is a React application that provides an admin interface for managing bookings.
+
+### Features
+- Dashboard to view all bookings
+- Calendar view of appointments
+- Booking management (view, edit, cancel)
+- Real-time updates
+
+### Setup and Running
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+The frontend will run on port 3000 by default.
+
+## Booking Widget Plugin
+
+A standalone JavaScript widget that can be embedded into any website to provide booking functionality.
+
+### Features
+- User-friendly booking interface
+- Dynamic time slot selection
+- Form validation
+- Responsive design
+
+### Integration
+Add the following script tag to your HTML:
+<!-- <script src="https://your-cdn.com/booking-widget.js"></script> -->
